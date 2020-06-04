@@ -1,0 +1,22 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <EditText
+        android:id="@+id/actbarEdt"
+        android:background="@drawable/custom_rectangle"
+        android:singleLine="true"
+        android:hint="Cari produk..."
+        android:padding="8dp"
+        android:ems="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:src="@drawable/ic_menu_search"
+        android:id="@+id/actbarImg"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

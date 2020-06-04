@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:background="#D6DAD7"
+            android:paddingBottom="350dp"
+            android:padding="30dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:text=" Laudy Celluler "
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:src="@drawable/laudy"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text=" Whatsapp : 082234194456 "
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textStyle="italic"
+                android:text="Selamat datang di aplikasi laudy celuler, kami menyediakan berbagai macam handphone dan assesoris yang tentunya cukup lengkap kami juga menyediakan sewa kamera dan tenda.\n\nToko kami beralamat di pasar binangun watumalang wonosobo langsung saja bagi kalian yang tertarik dengan produk kami silahkan klik tombol dibawah ini. "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+           
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal">
+            <Button
+                android:background="#FF7500"
+                android:text="Produk"
+                android:id="@+id/btnWelcome"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

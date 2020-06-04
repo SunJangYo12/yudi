@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:padding="20dp"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:text="Untuk ubah foto profil bisa dikosongin username dan password-nya jika akun menggunakan yang lama"
+            android:layout_marginBottom="30dp"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="New Profil name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edtProfilNama"
+            android:layout_width="fill_parent"
+            android:singleLine="true"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="New Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edtProfilPass"
+            android:layout_width="fill_parent"
+            android:singleLine="true"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Foto Profil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnFotoProfil"
+            android:text="Pilih Foto profil"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_contact_picture_180_holo"
+            android:id="@+id/imageFotoProfil"
+            android:layout_alignParentTop="true">
+        </ImageView>
+    </LinearLayout>
+</ScrollView>

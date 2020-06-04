@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="#FF7500"
+    android:padding="20dp"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:text="Nama lengkap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtSignNama"
+        android:singleLine="true"
+        android:hint="Name here..."
+        android:background="@drawable/custom_rectangle"
+        android:padding="15dp"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtSignPass"
+        android:singleLine="true"
+        android:hint="Password here..."
+        android:background="@drawable/custom_rectangle"
+        android:padding="15dp"
+        android:inputType="textWebPassword"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtSignAlam"
+        android:singleLine="true"
+        android:hint="Alamat here..."
+        android:background="@drawable/custom_rectangle"
+        android:padding="15dp"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"/>
+    
+</LinearLayout>

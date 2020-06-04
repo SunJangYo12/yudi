@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:padding="20dp"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:text="Katagori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnKata"
+            android:layout_marginBottom="20dp"
+            android:text="Pilih katagori produk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Nama produk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edtadd"
+            android:layout_width="fill_parent"
+            android:singleLine="true"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Harga produk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edtaddhar"
+            android:hint="50.000"
+            android:layout_width="fill_parent"
+            android:singleLine="true"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Foto produk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnFoto"
+            android:text="Pilih foto produk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageFoto"
+            android:layout_alignParentTop="true">
+        </ImageView>
+    </LinearLayout>
+</ScrollView>

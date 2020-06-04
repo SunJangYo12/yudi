@@ -1,0 +1,85 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:padding="20dp"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:text="Penbayaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnPembayaran"
+            android:layout_marginBottom="20dp"
+            android:text="Pilih Metode pembayaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Nama produk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/bayarnama"
+            android:layout_width="fill_parent"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Harga produk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/bayarharga"
+            android:layout_width="fill_parent"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FF7500"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Silahkan datang di toko kami yang beralamat di pasar binangun, watumalang wonosobo.\n untuk lebih jelasnya bisa chat wa dibawah ini"
+            android:id="@+id/txtToko"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Nama lengkap"
+            android:id="@+id/txtNama"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edtNama"
+            android:hint="Nama disini..."
+            android:singleLine="true"
+            android:visibility="invisible"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Alamat rumah"
+            android:id="@+id/txtAlamat"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/alamat"
+            android:hint="DESA/RT/NOMOR RUMAH"
+            android:singleLine="true"
+            android:visibility="invisible"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

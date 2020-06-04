@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:id="@+id/layout_main"
+    android:background="#00E996"
+    android:padding="30dp"
+    android:layout_height="fill_parent">
+    
+    <TextView
+        android:id="@+id/titleAkun"
+        android:text="Login"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_width="fill_parent"
+        android:paddingBottom="20dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Nama"
+        android:id="@+id/titNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtLoginName"
+        android:background="@drawable/custom_rectangle"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:layout_marginBottom="10dp"
+        android:hint="Name here..."
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Password"
+        android:id="@+id/titPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtLoginPass"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_rectangle"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:inputType="textWebPassword"
+        android:password="true"
+        android:hint="Password here..."
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/btnLogin"
+        android:background="@drawable/custom_rectangle"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/akunMember"
+        android:text="Belum jadi member"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Sign up"
+        android:ems="10"
+        android:id="@+id/btnSign"
+        android:background="#FF7500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</ScrollView>
